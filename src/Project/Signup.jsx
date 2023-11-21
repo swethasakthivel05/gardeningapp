@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import {
@@ -9,6 +8,7 @@ import {
   TextField,
   Button,
 } from "@mui/material";
+
 const theme = createTheme({
   typography: {
     fontFamily: [
@@ -29,8 +29,6 @@ const Signup = () => {
   return (
     <div
       style={{
-        backgroundImage:
-          'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jNHsL6h9XdhCxmESytaUcomceE02xP_AOH-JaUCC01bGc5a2axS5puueeubRA1J2DDk&usqp=CAU")',
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "100vh",
@@ -41,14 +39,20 @@ const Signup = () => {
     >
       <ThemeProvider theme={theme}>
         <Paper
-          elevation={10}
+          elevation={100}
           style={{
             width: "35%",
             height: "500px",
+            marginTop: "25px",
+            backgroundColor: "rgba(255, 255, 255, 0.3)",
+            borderRadius: "20px",
+            position: "relative",
+            zIndex: 1,
           }}
         >
+          <br></br>
           <center>
-            <Typography variant="h1" style={{ fontSize: "50px" }}>
+            <Typography style={{ fontSize: "50px", fontFamily: "initial" }}>
               Sign Up
             </Typography>
             <br></br>
@@ -57,7 +61,7 @@ const Signup = () => {
               id="outlined-basic"
               label="Firstname"
               type="text"
-              variant="outlined"
+              variant="standard"
               placeholder="Enter firstname"
             />
             &emsp;&emsp;&emsp;
@@ -65,7 +69,7 @@ const Signup = () => {
               id="outlined-basic"
               label="Lastname"
               type="text"
-              variant="outlined"
+              variant="standard"
               placeholder="Enter lastname"
             />
             <br></br>
@@ -74,7 +78,7 @@ const Signup = () => {
               id="outlined-basic"
               label="Email"
               type="email"
-              variant="outlined"
+              variant="standard"
               placeholder="Enter email"
             />
             <br></br>
@@ -83,7 +87,7 @@ const Signup = () => {
               label="Password"
               type="password"
               id="outlined-basic-password"
-              variant="outlined"
+              variant="standard"
               autoComplete="new-password"
               placeholder="Enter password"
             />
@@ -94,7 +98,13 @@ const Signup = () => {
             </Link>
             <br></br>
             <br></br>
-            <Link to="/" underline="hover">
+            <Link
+              to="/"
+              style={{
+                color: "darkblue",
+                textDecoration: "none",
+              }}
+            >
               {"Already have an account?"}
             </Link>
           </center>

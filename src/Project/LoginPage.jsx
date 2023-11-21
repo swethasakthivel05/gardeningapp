@@ -7,8 +7,8 @@ import {
   Typography,
   TextField,
   Button,
+  Checkbox,
 } from "@mui/material";
-// import backgroundImage from "./Project/Images/loginbg.jpeg";
 
 const theme = createTheme({
   typography: {
@@ -31,8 +31,6 @@ const LoginPage = () => {
   return (
     <div
       style={{
-        backgroundImage:
-          'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jNHsL6h9XdhCxmESytaUcomceE02xP_AOH-JaUCC01bGc5a2axS5puueeubRA1J2DDk&usqp=CAU")',
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "100vh",
@@ -43,41 +41,45 @@ const LoginPage = () => {
     >
       <ThemeProvider theme={theme}>
         <Paper
-          elevation={10}
+          elevation={100}
           style={{
             width: "35%",
             height: "500px",
-
-            // backgroundImage: url(${backgroundImage}),
+            marginTop: "25px",
+            backgroundColor: "rgba(255, 255, 255, 0.3)",
+            borderRadius: "20px",
+            position: "relative",
+            zIndex: 1,
           }}
         >
+          <br></br>
           <center>
-            <Typography variant="h1" style={{ fontSize: "50px" }}>
+            <Typography style={{ fontSize: "50px", fontFamily: "initial" }}>
               Login Page
             </Typography>
-            <br></br>
             <br></br>
             <br></br>
             <TextField
               id="outlined-basic"
               label="Email"
               type="email"
-              variant="outlined"
+              variant="standard"
+              placeholder="Enter email"
             />
-            <br></br>
             <br></br>
             <br></br>
             <TextField
               label="Password"
               type="password"
               id="outlined-basic"
-              variant="outlined"
+              variant="standard"
+              autoComplete="new-password"
               placeholder="Enter password"
-              required
             >
               Email Id &emsp;&emsp;
             </TextField>
             <br></br>
+            <Checkbox color="primary" /> Remember me
             <br></br>
             <br></br>
             <Link to="/home">
@@ -86,13 +88,26 @@ const LoginPage = () => {
             <br></br>
             <br></br>
             <br></br>
-            <Link to="/signup" underline="hover">
+            <Link
+              to="/signup"
+              style={{
+                color: "darkblue",
+                textDecoration: "none",
+              }}
+            >
               {"Don't have an account?"}
             </Link>
             &emsp;&emsp;&emsp;
-            {/* <Link href="#" underline="hover">
-          {"forgot password?"}
-        </Link> */}
+            <Link
+              href="#"
+              underline="hover"
+              style={{
+                color: "darkblue",
+                textDecoration: "none",
+              }}
+            >
+              {"forgot password?"}
+            </Link>
           </center>
         </Paper>
       </ThemeProvider>

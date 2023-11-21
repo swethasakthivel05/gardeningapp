@@ -42,9 +42,9 @@ function NavBar() {
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
-              fontFamily: "cursive",
+              fontFamily: "initial",
               fontWeight: 800,
-              color: "black",
+              color: "inherit",
               textDecoration: "none",
             }}
           >
@@ -91,14 +91,13 @@ function NavBar() {
             variant="h5"
             noWrap
             component="a"
-            //href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
               fontFamily: "cursive",
               fontWeight: 700,
-              color: "black",
+              color: "inherit",
               textDecoration: "none",
             }}
           >
@@ -117,7 +116,7 @@ function NavBar() {
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
-                  color: "black",
+                  color: "inherit",
                   fontFamily: "cursive",
                   fontWeight: 500,
                 }}
@@ -127,14 +126,14 @@ function NavBar() {
             ))}
           </Box>
 
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: "none" }}>
             <Button
               variant="contained"
               onClick={handleCloseNavMenu}
               sx={{
                 my: 2,
-                color: "inherit",
-                //  display: "block",
+                color: "white",
+                display: "block",
                 fontWeight: 500,
               }}
             >
