@@ -1,12 +1,18 @@
 import React from "react";
 import NavBar from "./Project/NavBar";
 import Footer from "./Project/Footer";
-import Sample from "./Project/Sample";
+import Astheticplants from "./Project/Astheticplants";
+import Vegetables from "./Project/Vegetables";
+import Herbs from "./Project/Herbs";
+import Popup from "./Project/Popup";
 const Home = () => {
   return (
     <div>
       <NavBar />
-      <Sample />
+     {/* <Popup /> */}
+      <Astheticplants />
+      <Vegetables />
+      <Herbs />
       <Footer />
     </div>
   );
