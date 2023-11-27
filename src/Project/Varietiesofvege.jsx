@@ -43,17 +43,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹180
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/tomato">
               <Button size="small" variant="contained">
@@ -87,17 +82,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹155
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/onion">
               <Button size="small" variant="contained">
@@ -131,17 +121,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹194
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/beetroot">
               <Button size="small" variant="contained">
@@ -176,17 +161,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹138
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/chilli">
               <Button size="small" variant="contained">
@@ -220,17 +200,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹199
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/carrot">
               <Button size="small" variant="contained">
@@ -264,17 +239,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹178
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/bottle">
               <Button size="small" variant="contained">

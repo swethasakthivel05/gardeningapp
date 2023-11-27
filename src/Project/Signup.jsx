@@ -93,7 +93,7 @@ const Signup = () => {
             />
             <br></br>
             <br></br>
-            <Link to="/">
+            <Link to="/home">
               <Button variant="contained">Sign Up</Button>
             </Link>
             <br></br>

@@ -123,228 +123,190 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<About />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<About />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/swiss",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<SwissDes />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<SwissDes />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/anthurium",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<AnthuriumDes />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<AnthuriumDes />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/string",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<StringOfPearlsCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<StringOfPearlsCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/tillandsia",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<Tillandsia />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<Tillandsia />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/prayer",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<Prayer />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<Prayer />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/peace",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<PeaceLilyCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<PeaceLilyCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/borage",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<BoragePlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<BoragePlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/dill",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<DillPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<DillPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/pepper",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<PeppermintPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<PeppermintPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/rosemary",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<RosemaryPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<RosemaryPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/tulsi",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<HolyBasilPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<HolyBasilPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/lavender",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<LavenderPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<LavenderPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/bottle",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<CucuzzaSquashCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<CucuzzaSquashCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/carrot",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<CarrotCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<CarrotCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/chilli",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<OrnamentalPepperCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<OrnamentalPepperCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/beetroot",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<BeetPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<BeetPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/onion",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<RedOnionPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<RedOnionPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
   {
     path: "/tomato",
     element: (
-      <Layout>
-        <Routes>
-          {/* <Route index element={<NavBar />} /> */}
-          <Route index element={<TomatoPlantCare />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        {/* <Route index element={<NavBar />} /> */}
+        <Route index element={<TomatoPlantCare />} />
+      </Routes>
     ),
     children: [],
   },
